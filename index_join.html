@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동방</title>
+    <link rel="stylesheet" href="css/style_join.css">
+</head>
+
+<body>
+    <!-- 1.header 영역 -->
+    <header>
+        <div class="center clearFix">
+            <h1 class="logo"><a href="index.html"><img src="images/logo_dongbang.png" alt="동방"></a></h1>
+            <ul class="gnb">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">ENGLISH</a></li>
+                <li><a href="#">CHINESE</a></li>
+                <li><a href="#">JAPANESE</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <nav>
+            <h2 class="blind">DONGBANG</h2>
+            <div class="center">
+                <div id="nav">
+                    <ul class="nav">
+                        <li>
+                            <a href="#">회사소개</a>
+                            <ul class="sub">
+                                <li><a href="#none">CEO인사말</a></li>
+                                <li><a href="#none">동방이념</a></li>
+                                <li><a href="#none">동방연혁</a></li>
+                                <li><a href="#none">CI</a></li>
+                                <li><a href="#none">동방비전</a></li>
+                                <li><a href="#none">BRANCH</a></li>
+                                <li><a href="#none">NETWORK</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">투자정보</a>
+                            <ul class="sub">
+                                <li><a href="#none">회사개요</a></li>
+                                <li><a href="#none">경영정보</a></li>
+                                <li><a href="#none">재무정보</a></li>
+                                <li><a href="#none">주가정보</a></li>
+                                <li><a href="#none">공시정보</a></li>
+                                <li><a href="#none">공고</a></li>
+                                <li><a href="#none">IR담당자</a></li>
+                                <li><a href="#none">동방뉴스</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">서비스</a>
+                            <ul class="sub">
+                                <li><a href="#none">항만하역</a></li>
+                                <li><a href="#none">육상운송</a></li>
+                                <li><a href="#none">철도운송</a></li>
+                                <li><a href="#none">해상운송</a></li>
+                                <li><a href="#none">중량물운송/설치</a></li>
+                                <li><a href="#none">CY/CFS</a></li>
+                                <li><a href="#none">FREEY</a></li>
+                                <li><a href="#none">TPL</a></li>
+                                <li><a href="#none">포털물류/해외</a></li>
+                                <li><a href="#none">장비소개</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">물류정보</a>
+                            <ul class="sub">
+                                <li><a href="#none">물류뉴스</a></li>
+                                <li><a href="#none">물류자료실</a></li>
+                                <li><a href="#none">물류관련법률</a></li>
+                                <li><a href="#none">관련SITE</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#none">비전</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="topright">
+                    <li><a href="index_login.html">Login</a></li>
+                    <li>/</li>
+                    <li><a href="index_join.html">Join</a></li>
+                    <li class="search"><a href="#none"><img src="images/icon_search.png" alt="검색"></a></li>
+                </ul>
+                <p class = "home"><a href="index.html"><img src="images/icon_home.png" alt=""></a><span>회원서비스 > <a href="#">로그인</a></span></p>
+            </div>
+        </nav>
+    </header>
+    <!-- 2.container 영역 -->
+    <div id="container">
+        <div class="center">
+            <h2>회원가입</h2>
+            <div class="box">
+                <p class="joinputitle">회원정보 입력<br><span>*필수</span></p>
+                <div class="bcenter">
+                    <div class="idinput">
+                        <ul>
+                            <p class="titlebold">아이디 <span class="blue">*</span></p>
+                            <li><input class="ipc" type="text" name="idinput" placeholder="아이디 입력"><button class="overlap"><span>중복확인</span></button></li>
+                        </ul>
+                        <div class="warning1">
+                            <img src="images/icon_warning_red.png" alt="">
+                            <p class="redwaning red">4~12자 이내 영문이나 숫자(대소문자 구별)</p>
+                        </div>
+                    </div>
+                    <div class="nametelinput clearFix">
+                        <ul>
+                            <li class="nameinput"><p class="titlebold">성명 <span class="blue">*</span></p><input class="ipc" type="text" name="nameinput" placeholder="성명 입력"></li>
+                            <li class="telinput">
+                                <p class="titlebold">휴대폰번호 <span class="blue">*</span></p>
+                                <select>
+                                    <option value="select">-선택-</option>
+                                    <option value="010">010</option>
+                                    <option value="011">011</option>
+                                    <option value="012">012</option>
+                                </select>
+                                -
+                                <input class="ipc" type="text" size="4" maxlength="4">
+                                -
+                                <input class="ipc" type="text" size="4" maxlength="4">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="passinput">
+                        <ul>
+                            <p class="titlebold">비밀번호 <span class="blue">*</span></p>
+                            <li><input class="ipc" type="password" name="passinput" placeholder="비밀번호 입력"><img src="images/icon_password_big.png" alt=""></li>
+                            <div class="warning2">
+                                <img src="images/icon_warning_red.png" alt="">
+                                <p class="redwaning red">9~32자의 영문대소문자 + 숫자 + 특수문자 사용<br> 
+                                    생년월일, 연속된 숫자, 문자 등 추측 가능한 비밀번호 제약</p>
+                            </div>
+                            
+                        </ul>
+                    </div>
+                    <div class="passchackinput">
+                        <ul>
+                            <p class="titlebold">비밀번호 확인 <span class="blue">*</span></p>
+                            <li><input class="ipc" type="password" name="passchackinput" placeholder="비밀번호 확인 입력"><img src="images/icon_password_big.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="emailinput">
+                        <ul>
+                            <p class="titlebold">이메일 <span class="blue">*</span></p>
+                            <li>
+                                <input class="ipc" type="text" name="emailinput" placeholder="이메일">
+                                @ <input class="ipc" type="text" name="urlinput" placeholder="이메일 도메인">
+                            </li>
+                            <div class="warning3">
+                                <img src="images/icon_warning_red.png" alt="">
+                                <p class="redwaning red">정확한 이메일 주소를 입력해 주세요.<br>
+                                    비밀번호 분실시, 회원가입시 등록하신 이메일로 확인 메일을 보내드립니다</p>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="marketing">
+                        <ul>
+                            <p class="titlebold">마케팅 및 광고활용 동의 </p>
+                            <p class="graytext">
+                                <input type="radio"> 마케팅 및 광고활용 동의(선택)
+                            </p>
+                            <li class="mail">
+                                <p class="titlebold">메일수신 </p>
+                                <input type="radio"><span>동의</span>
+                                <input type="radio"><span>비동의</span>
+                            </li>
+                            <li class="sns">
+                                <p class="titlebold">SNS수신 </p>
+                                <input type="radio"><span>이메일</span>
+                                <input type="radio"><span>SNS</span>
+                                <input type="radio"><span>비동의</span>
+                            </li>
+                            <div class="warning4">
+                                <img src="images/icon_warning_gray.png" alt="">
+                                <p class="graywaning gra">서비스 예약 및 결제정보 등 서비스 이용에 관한 중요 정보는 수신 여부와 관계없이 자동으로 발송됩니다. </p>
+                            </div>
+                           
+                        </ul>
+                    </div>
+                    <div class="delay">
+                        <ul>
+                            <p class="titlebold">개인정보 유예 기간 동의</p>
+                            <p class="graytext">
+                                <input type="radio"> 개인정보 유예기간 동의(선택)
+                            </p>
+                            <li><a href="#none"><span>10년</span></a>
+                                <a href="#none"><span>5년</span></a>
+                                <a href="#none"><span>1년</span></a>
+                                <a href="#none"><span>없음</span></a>
+                            </li>
+                            <div class="warning5">
+                                <img src="images/icon_warning_gray.png" alt="">
+                                <p class="graywaning gra">개인정보보호법 제39조의6에 따라 정보통신서비스를 1년 동안 이용하지 않는 이용자의 개인정보를 파기하도록 규정하고 있습니다.<br>
+                                    하지만 이용자는 유효기간을 1년이 아니라 달리 설정할 것을 요청 할 수 있습니다.</p>
+                            </div>
+                            <div class="warning6">
+                                <img src="images/icon_warning_gray.png" alt="">
+                                <p class="graywaning gra">선택 기간이 지나면 개인정보는 자동 파기됩니다.</p>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="bottomBtn">
+                        <ul>
+                            <li class="bottomleft">
+                                <a href="#none" class="cancel">취소</a>
+                                <a href="#none" class="ok">확인</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 3.footer 영역 -->
+    <div id="footer">
+        <div class="center">
+
+            <div class="footTop clearFix">
+                <h2 class="footlogo"><img src="images/logo_dongbang_gray.png" alt=""></h2>
+                <ul class="footNav">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">투자정보</a></li>
+                    <li><a href="#">채용정보</a></li>
+                </ul>
+            </div>
+
+            <div class="footBottom">
+                <address>
+                    <p>주소:서울특별시 중구 남대문로 2가 한진빌딩 23층 (주)<br>
+                        동방대표전화:[영업대표] 02)2190-8300 [경영지원] 02)2190-8100</p>
+                    <small>COPYRIGHT 2013 DONGBANG CO.LTD. ALL RIGHT RESERVED</small>
+                </address>
+                <div class="mark">
+                    <ul>
+                        <li><a href="#"><img src="images/icon_mark1.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/icon_mark2.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/icon_mark3.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/icon_mark4.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/icon_mark5.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/icon_mark6.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
